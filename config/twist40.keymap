@@ -25,7 +25,7 @@
 &kp LEFT_COMMAND   &lt 1 SPACE  &to 3   &lt 2 SPACE  &kp RIGHT_COMMAND  &kp RALT 
             >;
 
-            sensor-bindings = <inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP &>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP &>;
             label = "Qwery";
         };
     };
