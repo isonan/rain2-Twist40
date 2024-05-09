@@ -66,4 +66,14 @@
         "enabled": true
       }
     ]
+    "sensors": [
+      {
+        "ref": "right_encoder",
+        "name": "encoder_right",
+        "identifier": "encoder_right",
+        "compatible": "alps,ec11",
+        "label": "RIGHT_ENCODER",
+        "enabled": true
+      }
+    ]
   }
