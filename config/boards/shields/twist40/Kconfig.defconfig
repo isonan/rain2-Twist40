@@ -2,16 +2,8 @@ if SHIELD_TWIST40
 
 config ZMK_KEYBOARD_NAME
 	default "twist40"
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
-
 endif
 
-if SHIELD_AM_HATSU_LEFT 
-
-config ZMK_SPLIT
-    default y
 
 if ZMK_DISPLAY
 
@@ -26,10 +18,10 @@ endif # ZMK_DISPLAY
 if LVGL
 
 config LV_Z_VDB_SIZE
-    default 64
+    default 40
 
 config LV_DPI_DEF
-    default 148
+    default 72
 
 config LV_Z_BITS_PER_PIXEL
     default 1
