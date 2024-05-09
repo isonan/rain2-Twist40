@@ -67,7 +67,8 @@
         "label": "LEFT_ENCODER",
         "enabled": true
       }
-              {
+    "sensors": [
+      {
         "ref": "right_encoder",
         "name": "encoder_right",
         "identifier": "encoder_right",
