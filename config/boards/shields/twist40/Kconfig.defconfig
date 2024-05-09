@@ -32,4 +32,3 @@ endchoice
 
 endif # LVGL
 
-endif
