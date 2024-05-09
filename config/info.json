@@ -54,17 +54,17 @@
         { "row": 3, "col": 7, "x": 7.75, "y": 3 },   
         { "row": 3, "col": 10, "x": 10.75, "y": 3 },
         { "row": 3, "col": 11, "x": 14.25, "y": 3, "w":1.5 }
-       ]
+        ]
       }
     },
-    sensors [
+    "sensors": [
       {
-        ref left_encoder,
-        name encoder_left,
-        identifier encoder_left,
-        compatible alps,ec11,
-        label LEFT_ENCODER,
-        enabled true
+        "ref": "left_encoder",
+        "name": "encoder_left",
+        "identifier": "encoder_left",
+        "compatible": "alps,ec11",
+        "label": "LEFT_ENCODER",
+        "enabled": true
       }
     ]
   }
