@@ -1,7 +1,7 @@
-if SHIELD_AM_HATSU_LEFT
+if SHIELD_TWIST40
 
 config ZMK_KEYBOARD_NAME
-	default "AM-HATSU"
+	default "twist40"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
