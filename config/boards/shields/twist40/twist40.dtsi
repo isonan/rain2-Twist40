@@ -88,10 +88,10 @@ RC(3,0)         RC(3,2) RC(3,3) RC(3,4)			   RC(3,6) RC(3,7) 		   RC(3,10)
         reg = <0x3c>;
         width = <72>;
         height = <40>;
-        segment-offset = <0>;
+        segment-offset = <28>;
         page-offset = <0>;
         display-offset = <0>;
-        multiplex-ratio = <31>;
+        multiplex-ratio = <0x27>;
         segment-remap;
         com-invdir;
         com-sequential;
