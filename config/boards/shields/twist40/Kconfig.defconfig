@@ -22,10 +22,10 @@ endif
 if LVGL
 
 config LV_Z_VDB_SIZE
-    default 40
+    default 64
 
 config LV_DPI_DEF
-    default 92
+    default 148
 
 config LV_Z_BITS_PER_PIXEL
     default 1
